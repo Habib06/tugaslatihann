@@ -41,3 +41,10 @@ int main(){
 			matrixR[x][y] = array[x][y] / arrayM[y];
 		}
 	}
+	
+		// MATRIKS R * W
+	for(x=0; x<3; x++) {
+		for(y=0; y<5; y++) {
+			matrixRxW[x][y] = matrixR[x][y] * arrayW[y];
+		}
+	}
